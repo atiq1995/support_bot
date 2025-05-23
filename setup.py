@@ -36,12 +36,12 @@ def setup():
     except Exception as e:
         print(f"Error downloading NLTK data: {e}")
     
-    # Create .env file for API key if it doesn't exist
+    # Create .env file template for API key if it doesn't exist
     if not os.path.exists('.env'):
         with open('.env', 'w') as f:
             f.write("# Add your OpenRouter API key here\n")
-            f.write("OPENROUTER_API_KEY=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\n")
-        print("\nCreated .env file with API key")
+            f.write("OPENROUTER_API_KEY=your-api-key-here\n")
+        print("\nCreated .env file template. Please edit it to add your actual API key.")
     
     print("\nSetup complete! You can now run the bot using:")
     print("   - Command line interface: python chat_cli.py")
