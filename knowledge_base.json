@@ -1,0 +1,50 @@
+{
+    "greeting": [
+        "Hello! I'm {bot_name}, here to help you today.", 
+        "Hi there! I'm {bot_name}. How can I assist you?",
+        "Welcome to our support chat! I'm {bot_name}."
+    ],
+    "goodbye": [
+        "Thank you for chatting with us today!", 
+        "Have a great day! Feel free to come back if you have more questions.",
+        "Thanks for reaching out! If you need anything else, just message us again."
+    ],
+    "name_acknowledge": [
+        "Nice to meet you, {user_name}!", 
+        "Hello, {user_name}! How can I help you today?",
+        "Great to meet you, {user_name}. What can I assist you with?"
+    ],
+    "fallback": [
+        "I'm not sure I understand. Could you rephrase that?",
+        "I don't have information on that. Could you try asking something else?",
+        "I'm still learning and didn't quite catch that. Could you try different wording?"
+    ],
+    "faq": {
+        "hours": [
+            "Our store is open Monday-Friday 9AM-6PM and Saturday 10AM-4PM. We're closed on Sundays."
+        ],
+        "return policy": [
+            "You can return any unused item within 30 days with a receipt for a full refund.",
+            "Our return policy allows returns within 30 days of purchase with receipt."
+        ],
+        "shipping": [
+            "We offer free shipping on orders over $50. Standard shipping typically takes 3-5 business days.",
+            "Shipping is free for orders above $50. Orders usually arrive within 3-5 business days."
+        ],
+        "contact": [
+            "You can reach our customer service team at support@example.com or call us at (555) 123-4567.",
+            "Need to reach us directly? Email support@example.com or call (555) 123-4567."
+        ],
+        "payment": [
+            "We accept all major credit cards, PayPal, and Apple Pay.",
+            "You can pay using any major credit card, PayPal, or Apple Pay."
+        ],
+        "discount": [
+            "We offer a 10% discount for first-time customers. Use code WELCOME10 at checkout.",
+            "Sign up for our newsletter to receive exclusive discount codes and promotions."
+        ],
+        "warranty": [
+            "All our products come with a 1-year manufacturer warranty against defects."
+        ]
+    }
+} 
